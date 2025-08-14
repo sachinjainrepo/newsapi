@@ -9,7 +9,7 @@ const getnews = async () => {
     return response.data;
   } catch (error) {
     console.error('Error fetching data:', error.message);
-    throw error; // Re-throw the error so the calling function can handle it
+    throw error; 
   }
 };
  
